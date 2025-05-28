@@ -176,18 +176,24 @@ small {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
+  .container {
+    max-width: none;
+    padding: 0;
+  }
   .signup {
     flex-direction: column-reverse;
     width: 100%;
+    padding: 0;
   }
   .signup .image {
     background-image: url('assets/images/illustration-sign-up-mobile.svg');
     background-size: cover;
-    height: 300px;
-    width: 100%;
     background-repeat: no-repeat;
-    background-position: center;
-    padding: 1rem 1.5rem 1rem 1rem;
+    background-position: top center;
+    min-height: 350px;
+    /* height: 100px; */
+    width: 100%;
+    padding: 0;
     display: block;
   }
 
