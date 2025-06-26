@@ -201,4 +201,19 @@ small {
     border-radius: 0 0 10px 10px;
     width: 100%;
   }
+  #success-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* gap: 3rem; */
+    justify-content: space-between;
+  }
+  body {
+    padding: 0;
+  }
+
+#dismiss-btn {
+    width: 100%;
+  }
 }
